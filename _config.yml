@@ -24,8 +24,11 @@ sass:
   sass_dir:         _sass
   style:            :compressed
 
+images:             /assets/images/fullres
+
 # About/contact
 author:
   name:             Thibault Schueller
   url:              https://twitter.com/schuel_t
   email:            ryp.sqrt@gmail.com
+
