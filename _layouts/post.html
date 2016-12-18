@@ -8,6 +8,12 @@ layout: default
   {{ content }}
 </article>
 
+<ul style="display:none;">
+  {% for image in page.images %}
+    <li><img src="{{ site.baseurl }}{{ site.images }}/{{ image.image_path }}" /></li>
+  {% endfor %}
+</ul>
+
 <!--
 {% if site.related_posts != empty %}
 <aside class="related">
