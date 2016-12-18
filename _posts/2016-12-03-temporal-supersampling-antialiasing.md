@@ -2,32 +2,57 @@
 layout: post
 title:  "Temporal Supersampling Antialiasing"
 date:   2016-12-03 16:26:56 +0100
-categories: aliasing
+hidden: true
+categories: temporal aliasing
 images:
-  - colombelles-no-aa.png
-  - colombelles-tssaa.png
-  - colombelles-magnified1-no-aa.png
-  - colombelles-magnified1-tssaa.png
+#  - tssaa/colombelles.png
+#  - tssaa/colombelles-tssaa.png
+  - tssaa/colombelles-magnified1.png
+  - tssaa/colombelles-magnified1-tssaa.png
+  - tssaa/sme-smear.png
 ---
 
 Temporal Supersampling Antialiasing is one of the most recent development in modern AA techniques.
-The basic idea is quite simple and can be expressed as follow: Take your usual FSAA for example (let's say 4X).
-Now, instead of rendering all of the subpixel samples at once, iterate over them over 4 frames and render the scene with the selected offset.
-Store these pixels in a history buffer and a few frames later, your history should contain the equivalent of the 4X FSAA we talked about earlier.
+The basic idea is quite simple and can be expressed as follow:
 
-Great, we just spread the usually prohibitive cost of FSAA over a few frames, getting good quality *almost* for free!
+Increase the number of samples you render for a single output pixel (let's call this number **n**),
+but instead of rendering all of the subpixels at once like you would when doing supersampling,
+iterate over them over **n** frames and render the scene with the selected screen-space offset while
+storing you last results.
 
-Now *what if* your camera moved a tiny bit while accumulating pixel value in the history ? Well, that's the part where all hell breaks loose. This article aims to document the stupid tricks i came up with for resolving this problem, why they sucked and how we fixed the dam thing!
+When you have enough frames, merge the history of the last **n** frames together and you should obtain
+a antialiased image based on these jittered frames.
 
-{% highlight cpp %}
+What we did was just spreading the usually prohibitive cost of supersampling over a few frames,
+getting the equivalent quality for *almost* free!
+
+This is the result on a static scene:
+
+<div class="twentytwenty-container">
+  <img width="100%" src="{{ site.baseurl }}{{ site.images }}/tssaa/colombelles-magnified1.png" />
+  <img width="100%" src="{{ site.baseurl }}{{ site.images }}/tssaa/colombelles-magnified1-tssaa.png" />
+</div>
+
+*This screenshot was taken using 8 samples of a 2-3 Halton sequence.*
+
+While this technique might sound impressive given the fact that performance was not sacrified,
+it is crucial to preserve temporal coherency when objects move on the screen.
+Don't do this and the history will not correspond to the current object we are shading anymore!
+
+Smearing is barely noticeable as you can see:
+<img width="100%" src="{{ site.baseurl }}{{ site.images }}/tssaa/sme-smear.png" />
+
+# It's all downhill from here
+
+This article aims to document some of the stupid tricks i came up with for solving these problems,
+why most of them sucked and how we fixed the dam thing!
+
+<!--
+{% highlight cpp linenos %}
 void main()
 {
     return 0;
 }
 {% endhighlight %}
-
-<div class="twentytwenty-container">
-  <img width="100%" src="{{ site.baseurl }}{{ site.images }}/colombelles-magnified1-no-aa.png" />
-  <img width="100%" src="{{ site.baseurl }}{{ site.images }}/colombelles-magnified1-tssaa.png" />
-</div>
+-->
 
