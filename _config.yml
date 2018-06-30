@@ -13,7 +13,7 @@ paginate:           1
 permalink:          pretty
 
 # Setup
-title:              Pixels may jitter
+title:              Pixels May Jitter
 tagline:            Computer graphics ramblings, randomly sampled.
 url:                ""
 baseurl:            ""
