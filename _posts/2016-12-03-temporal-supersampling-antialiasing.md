@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Temporal Supersampling Antialiasing"
-date:   2016-12-03 16:26:56 +0100
 hidden: true
 categories: temporal aliasing
 images:
@@ -10,6 +9,7 @@ images:
   - tssaa/colombelles-magnified1.png
   - tssaa/colombelles-magnified1-tssaa.png
   - tssaa/sme-smear.png
+date: 2016-12-03 16:26 +0100
 ---
 
 Temporal Supersampling Antialiasing is one of the most recent development in modern AA techniques.

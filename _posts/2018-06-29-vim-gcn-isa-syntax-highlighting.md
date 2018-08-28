@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Release: AMD GCN ISA Syntax Highlighting for Vim"
-date:   2018-06-29 16:00:00 +0100
+title: "Release: AMD GCN ISA Syntax Highlighting for Vim"
 categories: vim release gcn
 images:
   - vim/gcn-highlighting.png
+date: 2018-06-29 16:00 +0100
 ---
 
 I got into low-level shader optimizations lately, and realised that not many tools
