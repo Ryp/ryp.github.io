@@ -2,6 +2,7 @@
 layout: post
 title: "Weekend Raytracer Project"
 categories: raytracing
+images:
   - raytracer/render.png
 date: 2018-08-28 19:59 +0200
 ---
