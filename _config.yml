@@ -9,7 +9,7 @@ exclude:
   - Gemfile.lock
 
 # Permalinks
-paginate:           1
+paginate:           5
 permalink:          pretty
 
 # Setup
