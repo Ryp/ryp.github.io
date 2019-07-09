@@ -19,7 +19,7 @@ that new languages try address the need for a superior paradigm. C++ is full of
 traps and requires a lot of discipline to produce maintainable code.
 
 I thought it would be a nice start to just take existing code and try to see how
-well it would translate from C++. I simply took my previous CHIP-8 emu and started
+well it would translate from C++. I simply took my [previous CHIP-8 emu](https://github.com/Ryp/chip8-emu) and started
 to chip at it with the help of the docs.
 
 If you want to dive right in, here's the code on [GitHub](https://github.com/Ryp/chip8-emu-rs).
