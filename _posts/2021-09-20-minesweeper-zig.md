@@ -2,7 +2,7 @@
 layout: post
 title: "Minesweeper with Zig"
 categories: game zig minesweeper
-date: 2021-09-20 12:21 +0300
+date: 2021-09-20 12:22 +0300
 ---
 
 After porting my CHIP-8 emulator to Zig (repo on [GitHub](https://github.com/Ryp/chip8-emu-zig)) and [writing about it](https://ryp.github.io/emu/zig/chip8/2021/07/04/chip8-emulator-zig),
