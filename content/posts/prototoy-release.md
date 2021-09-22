@@ -1,7 +1,7 @@
 ---
 title: "Prototoy: offline shadertoy clone in rust"
 date: 2021-06-04T12:00:00+03:00
-categories: rust shader
+tags: [rust, graphics]
 ---
 
 Time for reinventing the wheel again!

@@ -1,7 +1,7 @@
 ---
 title: "Weekend Raytracer Project"
 date: 2018-08-28T19:59:00+0200
-categories: raytracing
+tags: [cpp, graphics]
 ---
 
 Raytracers are one of those cool programs that you can write in a few hours and already have something fun to play with. I never got to write one at school so I figured I would spend a day or two and get one going!

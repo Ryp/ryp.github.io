@@ -1,7 +1,7 @@
 ---
 title: "Minesweeper with Zig"
 date: 2021-09-20T12:00:00+03:00
-draft: false
+tags: [zig]
 ---
 
 After porting my CHIP-8 emulator to Zig (repo on [GitHub](https://github.com/Ryp/chip8-emu-zig)) and [writing about it]({{< ref "chip8-emulator-zig">}}),

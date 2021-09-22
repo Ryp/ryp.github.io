@@ -1,7 +1,7 @@
 ---
 title: "CHIP-8 Emulator: Rust port"
 date: 2019-07-09T12:00:00+03:00
-categories: emu rust chip8
+tags: [rust, chip8]
 ---
 
 **tl;dr:** I ported my CHIP-8 emulator to Rust.

@@ -1,7 +1,7 @@
 ---
 title: "CHIP-8 Emulator: Zig port"
 date: 2021-07-04T12:00:00+03:00
-categories: emu zig chip8
+tags: [zig, chip8]
 ---
 
 After porting a CHIP-8 emulator to Rust (repo on [GitHub](https://github.com/Ryp/chip8-emu-rs)),

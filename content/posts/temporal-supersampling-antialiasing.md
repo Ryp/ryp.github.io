@@ -2,7 +2,7 @@
 title: "Temporal Supersampling Antialiasing"
 date: 2016-12-03T16:26:00+0100
 draft: true
-categories: temporal aliasing
+tags: [graphics]
 ---
 
 Temporal Supersampling Antialiasing is one of the most recent development in modern AA techniques.

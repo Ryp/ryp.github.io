@@ -1,7 +1,7 @@
 ---
 title: "AMD GCN ISA Syntax Highlighting for Vim"
 date: 2018-06-29T16:00:00+0100
-categories: vim release gcn
+tags: [vim, graphics]
 ---
 
 I got into low-level shader optimizations lately, and realised that not many tools

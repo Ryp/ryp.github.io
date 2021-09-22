@@ -4,6 +4,8 @@ title: 'Pixels May Jitter'
 paginate: 5
 permalinks:
   posts: '/:year/:title'
+taxonomies:
+  tag: 'tags'
 theme: papermod
 #theme: 'hermit'
 #theme: 'hello-friend-ng'

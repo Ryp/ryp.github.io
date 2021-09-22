@@ -1,7 +1,7 @@
 ---
 title: "CHIP-8 Emulator"
 date: 2019-05-06T12:00:00+02:00
-categories: emu cpp chip8
+tags: [cpp, chip8]
 ---
 
 Thought it was a fun idea to implement a very basic emulator so I did just that!
