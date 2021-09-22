@@ -2,6 +2,8 @@ baseURL: 'https://ryp.github.io/'
 languageCode: en-us
 title: 'Pixels May Jitter'
 paginate: 5
+permalinks:
+  posts: '/:year/:title'
 theme: papermod
 #theme: 'hermit'
 #theme: 'hello-friend-ng'
