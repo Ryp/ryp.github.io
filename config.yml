@@ -19,3 +19,5 @@ params:
       url: "https://github.com/Ryp"
     - name: twitter
       url: "https://twitter.com/schuel_t"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/thibault-schueller-771ab442/"
