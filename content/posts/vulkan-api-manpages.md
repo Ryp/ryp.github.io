@@ -12,4 +12,4 @@ Long story short, I tried to add the support upstream (see [PR #839](https://git
 As usual, the source code is available on [GitHub](https://github.com/Ryp/Vulkan-Docs).
 There's also a [vulkan-man-git](https://aur.archlinux.org/packages/vulkan-man-git/) package on AUR if you're using Arch Linux.
 
-<img width="100%" src="{{ site.baseurl }}{{ site.images }}/vulkan/manpage.png" />
+![Screenshot](/img/vulkan/manpage.png)

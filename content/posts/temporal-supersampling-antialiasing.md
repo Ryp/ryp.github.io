@@ -22,8 +22,8 @@ getting the equivalent quality for *almost* free!
 This is the result on a static scene:
 
 <div class="twentytwenty-container">
-  <img width="100%" src="{{ site.baseurl }}{{ site.images }}/tssaa/colombelles-magnified1.png" />
-  <img width="100%" src="{{ site.baseurl }}{{ site.images }}/tssaa/colombelles-magnified1-tssaa.png" />
+  <img width="100%" src="/img/tssaa/colombelles-magnified1.png" />
+  <img width="100%" src="/img/tssaa/colombelles-magnified1-tssaa.png" />
 </div>
 
 *This screenshot was taken using 8 samples of a 2-3 Halton sequence.*
@@ -33,7 +33,7 @@ it is crucial to preserve temporal coherency when objects move on the screen.
 Don't do this and the history will not correspond to the current object we are shading anymore!
 
 Smearing is barely noticeable as you can see:
-<img width="100%" src="{{ site.baseurl }}{{ site.images }}/tssaa/sme-smear.png" />
+<img width="100%" src="/img/tssaa/sme-smear.png" />
 
 # It's all downhill from here
 

@@ -7,9 +7,9 @@ draft: false
 After porting my CHIP-8 emulator to Zig (repo on [GitHub](https://github.com/Ryp/chip8-emu-zig)) and [writing about it](https://ryp.github.io/emu/zig/chip8/2021/07/04/chip8-emulator-zig),
 I decided to come back for some fun and wanted to try my hand on building a small game from the ground up.
 
-Sometimes you win             | Sometimes you lose
+Sometimes you win          | Sometimes you lose
 :-------------------------:|:-------------------------:
-<img width="100%" src="{{ site.baseurl }}{{ site.images }}/minesweeper/screenshot-win.png" /> | <img width="100%" src="{{ site.baseurl }}{{ site.images }}/minesweeper/screenshot-lose.png" />
+![win](/img/minesweeper/screenshot-win.png) | ![lose](/img/minesweeper/screenshot-lose.png)
 
 # Sweeping the mines
 

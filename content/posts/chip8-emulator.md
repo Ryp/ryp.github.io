@@ -18,6 +18,6 @@ As usual, the source code is available on [GitHub](https://github.com/Ryp/chip8-
 If you want to join the fun and make your own, here's a rather complete [documentation](http://devernay.free.fr/hacks/chip8/C8TECH10.HTM#Dxyn) to get you going!
 
 Here are a bunch of screenshots:
-<img width="100%" src="{{ site.baseurl }}{{ site.images }}/chip8/tictactoe.png" />
-<img width="100%" src="{{ site.baseurl }}{{ site.images }}/chip8/brick.png" />
-<img width="100%" src="{{ site.baseurl }}{{ site.images }}/chip8/invaders.png" />
+![Game](/img/chip8/tictactoe.png)
+![Game](/img/chip8/brick.png)
+![Game](/img/chip8/invaders.png)

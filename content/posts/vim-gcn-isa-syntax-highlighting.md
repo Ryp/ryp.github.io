@@ -14,7 +14,7 @@ the only public GPU ISA out there) as well as learning some vim scripting basics
 
 You can find the plugin on [GitHub](https://github.com/Ryp/vim-gcn-isa).
 
-<img width="100%" src="{{ site.baseurl }}{{ site.images }}/vim/gcn-highlighting.png" />
+![Screenshot](/img/vim/gcn-highlighting.png)
 
 Writing a simple syntax plugin for vim was overall a pleasant experience, and
 i strongly recommend taking a look at [AMD's GCN3 ISA](http://developer.amd.com/wordpress/media/2013/12/AMD_GCN3_Instruction_Set_Architecture_rev1.1.pdf)

@@ -13,4 +13,4 @@ I'd really recommend this book since it gives you enough knowledge to get things
 
 As a reference I've put the full source code of my implementation on [GitHub](https://github.com/Ryp/raytracer).
 
-<img width="100%" src="{{ site.baseurl }}{{ site.images }}/raytracer/render.png" />
+![Render](/img/raytracer/render.png)
