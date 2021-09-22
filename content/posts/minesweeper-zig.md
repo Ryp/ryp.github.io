@@ -4,7 +4,7 @@ date: 2021-09-20T12:00:00+03:00
 draft: false
 ---
 
-After porting my CHIP-8 emulator to Zig (repo on [GitHub](https://github.com/Ryp/chip8-emu-zig)) and [writing about it](https://ryp.github.io/emu/zig/chip8/2021/07/04/chip8-emulator-zig),
+After porting my CHIP-8 emulator to Zig (repo on [GitHub](https://github.com/Ryp/chip8-emu-zig)) and [writing about it]({{< ref "chip8-emulator-zig">}}),
 I decided to come back for some fun and wanted to try my hand on building a small game from the ground up.
 
 Sometimes you win          | Sometimes you lose

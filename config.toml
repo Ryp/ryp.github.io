@@ -1,6 +1,0 @@
-baseURL = 'http://ryp.github.io/'
-languageCode = 'en-us'
-title = 'Pixels May Jitter'
-theme = 'papermod'
-#theme = 'hermit'
-#theme = 'hello-friend-ng'
