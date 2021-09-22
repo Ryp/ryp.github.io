@@ -23,7 +23,6 @@ Introducing: Prototoy! Prototoy is a rather simple program, it allows you to loa
 <meta name=generator content="Hugo 0.88.1">
 <noscript>
 <style>#theme-toggle,.top-link{display:none}</style>
-<style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
 </noscript><meta property="og:title" content="Prototoy: offline shadertoy clone in rust">
 <meta property="og:description" content="Time for reinventing the wheel again!
 Shadertoy is great and all, but I didn&rsquo;t find it super comfortable to use.
@@ -42,8 +41,7 @@ Introducing: Prototoy! Prototoy is a rather simple program, it allows you to loa
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://ryp.github.io/posts/"},{"@type":"ListItem","position":2,"name":"Prototoy: offline shadertoy clone in rust","item":"https://ryp.github.io/posts/prototoy-release/"}]}</script>
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Prototoy: offline shadertoy clone in rust","name":"Prototoy: offline shadertoy clone in rust","description":"Time for reinventing the wheel again!\nShadertoy is great and all, but I didn\u0026rsquo;t find it super comfortable to use.\n Can\u0026rsquo;t use your own editor Browsers eat my battery!  Instead of staying mad at things, I took this as a learning opportunity and made an offline version.\nIntroducing: Prototoy! Prototoy is a rather simple program, it allows you to load a shader from your disk, show it in a window and watch for file changes to hot reload it.","keywords":[],"articleBody":"Time for reinventing the wheel again!\nShadertoy is great and all, but I didn’t find it super comfortable to use.\n Can’t use your own editor Browsers eat my battery!  Instead of staying mad at things, I took this as a learning opportunity and made an offline version.\nIntroducing: Prototoy! Prototoy is a rather simple program, it allows you to load a shader from your disk, show it in a window and watch for file changes to hot reload it. Make that in Rust too of course - because why not - and voilà!\nShaderToy Viewer USAGE: prototoy [FLAGS]  FLAGS: -h, --help Prints help information -s only render new frame when the shader changes -V, --version Prints version information ARGS:  path of the GLSL shader Here’s the code on GitHub as usual!\nCaveats! Of course I didn’t try to rewrite the full set of features of the original website, but the core idea is there :)\nFeel free to open PRs if you feel it’s missing something important!\n","wordCount":"169","inLanguage":"en","datePublished":"2021-06-04T12:00:00+03:00","dateModified":"2021-06-04T12:00:00+03:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://ryp.github.io/posts/prototoy-release/"},"publisher":{"@type":"Organization","name":"Pixels May Jitter","logo":{"@type":"ImageObject","url":"https://ryp.github.io/favicon.ico"}}}</script>
 </head>
-<body id=top>
-<script>window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
+<body class=dark id=top>
 <header class=header>
 <nav class=nav>
 <div class=logo>
