@@ -1,16 +1,19 @@
 baseURL: 'https://ryp.github.io/'
 languageCode: en-us
 title: 'Pixels May Jitter'
-theme: papermod
 paginate: 5
+theme: papermod
 #theme: 'hermit'
 #theme: 'hello-friend-ng'
 
 params:
-    defaultTheme: auto
-    disableThemeToggle: true
-    #socialIcons:
-    #    - name: github
-    #      url: "https://github.com/Ryp"
-    #    - name: twitter
-    #      url: "https://twitter.com/schuel_t"
+  defaultTheme: dark
+  disableThemeToggle: true
+  homeInfoParams:
+    Title: 'Computer ramblings, randomly sampled'
+    Content: "Hi! My name is Thibault Schueller, and welcome to my blog. Here you'll find content loosely related to games and computer graphics. Have fun!"
+  socialIcons:
+    - name: github
+      url: "https://github.com/Ryp"
+    - name: twitter
+      url: "https://twitter.com/schuel_t"
