@@ -62,8 +62,10 @@ almost all of that time was spent in iterator and range debug validation.
 My initial [backbuffer filling routine](https://github.com/Ryp/chip8-emu-rs/blob/master/src/sdl2/backend.rs#L80) was of course naive and non-optimized, so
 after spending a couple of hours improving it, I got this result:
 
-| **Debug**   | 500ms |
-| **Release** | ~7ms  |
+| Config      | Time  |
+|-------------|------:|
+| Debug   | **501ms** |
+| Release | **7ms**  |
 
 The gain from 42ms to 7ms was expected in my release build, as I roughly cut the
 work needed in my code by 8, but I was not expecting my debug perf to stay at
