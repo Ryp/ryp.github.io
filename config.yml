@@ -11,7 +11,7 @@ theme: papermod
 #theme: 'hello-friend-ng'
 
 params:
-  defaultTheme: dark
+  defaultTheme: auto
   disableThemeToggle: true
   homeInfoParams:
     Title: 'Computer ramblings, randomly sampled'
